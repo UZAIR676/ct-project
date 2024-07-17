@@ -1,0 +1,24 @@
+.searchInputContainer{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.searchInputContainer input{
+  margin-top: 2vh;
+  width: 30%;
+  margin-left: 32vw;
+
+
+}
+
+.search{
+  width: 30%;
+  margin-left: 32vw;
+   border: 1px solid rgb(94, 88, 88); 
+  height: 6vh;
+  border-radius: 5px;
+}
+.qwe button{
+  margin-left: 32vw;
+  width: 30%;
+}

@@ -1,0 +1,167 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+
+} 
+.main-container>h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+} 
+.main-container>.container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+ 
+}
+.container>.search-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar>input{
+  width: 300px;
+  outline: none;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+ .background1 {
+  /* margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 60vh;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -100px; */
+    width: 100%;
+}
+
+.background2 {
+  margin-top: 67px;
+  margin-bottom: 23px;
+  margin-left: 30vw;
+  width: 100%;
+}
+
+.background3 {
+  margin-top: 67px;
+  margin-bottom: 23px;
+  margin-left: 30vw;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFBFB;
+  gap: 20px; 
+  padding: 40px; 
+  width: 40%; 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 rgba(17, 34, 64, 0.16);
+  padding-bottom: 5px;
+}
+
+.card2 {
+  margin-bottom: 34px;
+  margin-top: -34px;
+}
+
+.card > .card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; 
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 90%; 
+    margin: 0 auto; 
+  }
+
+  .card2 {
+    flex-direction: column; 
+  }
+
+  .card3 {
+    flex-direction: column;
+  }
+
+  .background2, .background3 {
+    margin-left: 0; 
+    margin-bottom: 20px; 
+  }
+}
+.card2 >.company-logo>img{
+  width: 100px;
+}
+.card2 > .Precio > h1 {
+  font-size: 18px;
+}
+
+.card > .card3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px; 
+}
+
+.card3 > .contactanos > h1 {
+  font-size: 18px; 
+}
+
+.nl {
+  padding: 16px; 
+}
+
+.copago-info {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.copago-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.copago-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.copago-info li {
+  width: 100%; 
+  background-color: #f9f9f9;
+  margin-bottom: 10px; 
+  padding: 16px; 
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copago-info { 
+  overflow-y: auto;
+  max-height: 200px;  
+}
+
+@media (max-width: 700px) {
+  .copago-info li {
+    font-size: 14px; 
+  }
+}
+
+.container {
+  background-color: rgb(209, 216, 222);
+  gap: -70px;
+} 

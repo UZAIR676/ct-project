@@ -1,0 +1,213 @@
+body {
+    background-image: none !important;
+    color: #252525;
+    font-family: Lato, sans-serif;
+    font-size: 62.5%;
+    font-weight: 500;
+    letter-spacing: .33px;
+    line-height: 1.15;
+}
+
+@media only screen and (max-width: 100em) {
+    body {
+        font-size: 62.5%;
+    }
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    overflow-x: hidden !important;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 100em) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --select-border: #777;
+    --select-arrow: var(--select-border);
+}
+
+
+.margin-top-6rem {
+    margin-top: 6rem;
+}
+
+.margin-bottom-6rem {
+    margin-bottom: 6rem;
+}
+
+.content-half-quarter {
+    display: grid;
+    grid-column: center-start/center-end;
+}
+
+.content-half-quarter {
+    grid-column-gap: 6rem;
+    grid-template-columns: 1fr minmax(13rem, 38rem);
+}
+
+figure {
+    margin: 0;
+}
+
+.image__box {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-column-2-3 {
+    grid-column: 2/3;
+}
+
+a,
+a:visited {
+    font-family: Lato, sans-serif;
+    transition: all .2s;
+
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+.form__checkbox-input:checked~.form__checkbox-label {
+    background-color: #18203f;
+    color: #fff;
+    font-weight: 700;
+}
+
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.image__item--100 {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.form__checkbox-input:checked~.form__checkbox-label .form__checkbox-element {
+    color: #18203f;
+    font-weight: 400;
+}
+
+.form__checkbox-input:checked~.form__checkbox-label .form__checkbox-element {
+    border: 1px solid transparent;
+}
+
+.form__checkbox-element:before,
+.form__radio-element:before {
+    border: 3px solid #18203f;
+    border-radius: 0;
+    border-width: 0 3px 3px 0;
+    bottom: 7px;
+    content: "";
+    display: block;
+    height: 16px;
+    left: 9px;
+    opacity: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: center center;
+    transition: all .25s cubic-bezier(.4, 0, .23, 1);
+    width: 8px;
+}
+
+.form__checkbox-input:checked~.form__checkbox-label .form__checkbox-element::after,
+.form__checkbox-input:checked~.form__checkbox-label .form__checkbox-element::before,
+.form__checkbox-input:checked~.form__checkbox-label .form__radio-element::after,
+.form__checkbox-input:checked~.form__checkbox-label .form__radio-element::before,
+.form__checkbox-input:checked~.form__radio-label .form__checkbox-element::after,
+.form__checkbox-input:checked~.form__radio-label .form__checkbox-element::before,
+.form__checkbox-input:checked~.form__radio-label .form__radio-element::after,
+.form__checkbox-input:checked~.form__radio-label .form__radio-element::before {
+    opacity: 1;
+}
+
+.form__checkbox-label:hover .form__checkbox-element {
+    border: 1px solid transparent;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-imag ul {
+    margin-top: 1rem;
+    padding-inline-start: 40px;
+}
+
+.content-pgraphs {
+    grid-row-gap: 3rem;
+    align-content: start;
+    display: grid;
+    z-index: 10;
+}
+
+.lp {
+    list-style-type: none;
+}
+
+.text-imag ul li {
+    color: #112240;
+    font-size: 1.7rem !important;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-container li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.js-Dropdown-title:after {
+    border: 8px solid transparent;
+    border-top-color: #a5a5a5;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    width: 0;
+}
+
+
+.muna {
+    margin-left: 12vw;
+    width: 80vw;
+
+}
+
+.mqq {
+    margin-left: 12vw;
+}

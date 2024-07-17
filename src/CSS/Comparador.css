@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 20%;
+    color: aliceblue;
+}
+.body1{
+    height: 100%;
+    width: 80%;
+    /* background-color: blueviolet; */
+    margin-left: 10vw;
+    padding-bottom: 22vh;
+}
+.main1{
+    margin-top: 20vh;
+}
+.main1  h1{
+    margin-left: 18vw;
+    color: black;
+    font-size: 5rem;
+    padding-bottom: 22px;
+}
+
+p{
+    color: black;
+}
+  /* CSS for mobile devices */
+  @media only screen and (max-width: 768px) {
+    .main1 h1{
+        font-size: 4rem;
+        margin-left: 2vw
+    }
+  }

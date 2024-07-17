@@ -1,0 +1,468 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 20%;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: #00a2e0;
+}
+
+.mobile-open {
+    position: absolute !important;
+    top: 0;
+    width: 60vw !important;
+    left: -12vw !important;
+}
+
+
+.logo{
+    cursor: pointer;
+}
+.dropdownmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #1460aa;
+    background-color: #00a2e0;
+    padding-top: 22px;
+    position: relative;
+}
+
+.dropdownmenu ul,
+.dropdownmenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdownmenu li {
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu li {
+    float: left;
+    position: relative;
+    width: auto;
+
+}
+
+.sugeurose a {
+    color: wheat;
+}
+
+.dropdownmenu a {
+    color: rgb(212, 205, 205);
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    height: 22px;
+
+}
+
+li {
+    height: 12px;
+    width: 20px;
+
+}
+
+.submenu li a {
+    color: #038cc2;
+    font-size: 1.4rem;
+    /* margin-left: 3vw; */
+    /* padding: 2px; */
+}
+
+.submenu {
+    display: none;
+    /* Hide the submenu by default */
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    width: 350%;
+    background-color: white;
+    color: darkblue;
+    height: fit-content;
+    padding: 10px 5px;
+    padding-bottom: 30px !important;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.submenu li a {
+    color: #038cc2;
+    font-size: 1.4rem;
+    text-align: center;
+    /* Center the text */
+    display: block;
+    /* Convert <a> tags to block elements */
+    padding: 5px 0;
+    /* Add padding to space them out */
+}
+
+
+.dropdownmenu li.active .submenu {
+    display: block;
+    opacity: 1;
+    top: 80px;
+}
+
+.dropdownmenu li {
+    cursor: pointer;
+
+}
+
+.submenu li {
+    float: none;
+    width: 100%;
+    height: fit-content;
+
+}
+
+
+.submenu li:hover {
+    background: rgb(214, 201, 201);
+}
+
+.sugeurose a {
+    font-size: 1.5rem;
+}
+
+.login-menu {
+    margin-right: 12vw;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 10;
+    width: 200px;
+}
+
+.login-menu input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.login-menu button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 7px;
+    background-color: #00a2e0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-menu button:hover {
+    background-color: #038cc2;
+}
+
+.login-menu p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-menu p a {
+    color: #00a2e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    margin-left: 2vw;
+}
+
+.login-menu p a:hover {
+    color: #038cc2;
+}
+
+:root {
+    --select-border: #777;
+    --select-arrow: var(--select-border);
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Lato, sans-serif;
+    outline: none;
+    width: auto;
+}
+
+.btn1-border-rounded,
+.btn1-doctori-white,
+.btn1__icon {
+    -webkit-touch-callout: none;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .56px;
+    line-height: 1;
+    outline: none;
+    text-decoration: none;
+    transition: all .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.btn1-border-rounded {
+    align-self: center;
+    text-transform: none;
+}
+
+.btn1__icon {
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.btn1-doctori-white {
+    background-color: #fff;
+    border: none;
+    color: #1460aa;
+}
+
+.btn1-border-rounded {
+    border-radius: 34px;
+    font-size: 1.7rem;
+    padding: 1.65rem 3rem;
+}
+
+.btn1__icon {
+    font-weight: 400;
+    justify-content: space-between;
+    letter-spacing: 0;
+}
+
+.btn1__icon {
+    align-items: center;
+    display: flex;
+}
+
+.btn1-doctori-white {
+    background-color: #fff;
+    border: none;
+    color: #00a2e0;
+}
+
+.btn1-border-rounded {
+    border-radius: 26px;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+}
+
+a,
+a:link {
+    font-family: Lato, sans-serif;
+    transition: all .2s;
+}
+
+a,
+a:link {
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+span {
+    color: inherit;
+}
+
+.nav-hamb:hover {
+    background-color: #d3d3d3;
+}
+
+.nav-hamb:hover {
+    background-color: #038cc2;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: #777;
+}
+
+.dropdownmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #1460aa;
+    background-color: #00a2e0;
+    padding-top: 22px;
+    position: relative;
+    /* Add position relative to the parent */
+}
+
+
+
+.dropdownmenu li.active .submenu {
+    display: block;
+    opacity: 1;
+    top: 20px;
+    padding: 10px 5px;
+
+
+}
+
+.dropdownmenu .seguros-link {
+    color: white;
+    font-weight: bold;
+}
+
+.i {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.l {
+    display: flex;
+}
+
+
+@media (min-width: 1024px) {
+    .logo {
+        order: 1;
+    }
+
+    .sugeurose {
+        order: 2;
+    }
+
+    .btn1__icon {
+        order: 3;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        order: 2;
+    }
+
+    .sugeurose {
+        order: 1;
+    }
+
+    .btn1__icon {
+        order: 3;
+        /* Keep login button in its original position on mobile screens */
+    }
+}
+
+/* CSS for desktop screens */
+@media (min-width: 1024px) {
+    .login-text {
+        display: inline-block;
+        /* Display the login text on desktop screens */
+    }
+
+}
+
+/* CSS for mobile screens */
+@media (max-width: 1024px) {
+    .login-text {
+        display: none;
+        /* Hide the login text on mobile screens */
+    }
+
+    .login-icon {
+        display: inline-block;
+        /* Display the login icon on mobile screens */
+    }
+}
+
+/* Add this media query at the end of your CSS file */
+@media screen and (max-width: 1024px) {
+    .seguros-link {
+        display: none;
+        /* Hide the Seguros text on smaller screens */
+    }
+}
+
+@media (max-width: 1024px) {
+    .submenu {
+        margin-right: 45px;
+        height: fit-content;
+        max-width: 500px;
+        width: 350px;
+        margin-bottom: 222px;
+        display: none;
+        /* Hide the login text on mobile screens */
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    /* Hide Seguros link text */
+    .sugeurose .l a span.text {
+        display: none;
+    }
+
+    /* Show Seguros link icon */
+    .sugeurose .l a span.icon {
+        display: inline-block;
+    }
+}
+
+.submenu {
+    position: relative;
+}
+
+.label-cross {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.submenu-heading {
+    margin-left: 32vw;
+}

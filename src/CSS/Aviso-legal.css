@@ -1,0 +1,289 @@
+/* Estilo principal del contenedor */
+.aviso-legal-container-outer{
+  background-color:rgb(209, 216, 222) ;
+
+}
+.aviso-legal-container-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Estilo del título principal */
+.aviso-legal-title {
+  padding:20px;
+  font-size: 38px; /* Aumento del tamaño del título */
+  font-weight: bold;
+  margin-bottom: 15px; /* Mayor espacio después del título */
+  color: #000;
+  text-align: center;
+
+
+}
+.datos>.aviso-legal-list-datos-identificativos{
+   display: flex;
+   flex-direction: column;
+   padding-left: 30px;
+   padding-top: 10px;
+   
+}
+@media (max-width: 1350px) {
+  .datos>.aviso-legal-list-datos-identificativos{
+    gap: 10px;
+   
+  }
+}
+@media (max-width: 860px) {
+  .datos>.aviso-legal-list-datos-identificativos{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
+@media (max-width: 670px) {
+  .datos>.aviso-legal-list-datos-identificativos{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
+@media (max-width: 550px) {
+  .datos>.aviso-legal-list-datos-identificativos{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+}
+@media (max-width: 470px) {
+  .datos>.aviso-legal-list-datos-identificativos{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+.aviso-legal-list-datos-identificativos>.aviso-legal-list-item{
+  font-size: 16px;
+}
+.aviso-legal-container {
+  padding: 38px; /* Aumento del padding para más espacio alrededor del contenido */
+  font-family: Arial, sans-serif;
+  line-height: 1.8; /* Aumento del espacio entre líneas */
+  color: #333;
+  max-width: 100%; /* Asegura que el contenedor no exceda el ancho de la pantalla */
+ margin-left: 200px;
+ margin-right: 200px;
+ /* margin-top: 20px; */
+ /* margin-bottom: 20px; */
+ border-radius: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+background-color:rgb(209, 216, 222);
+  gap: 50px;
+}
+.aviso-legal-container>.datos{
+  width: 63vw;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #FBFBFB  ;
+  padding-right:35px;
+}
+
+
+
+/* Estilo de los subtítulos */
+.aviso-legal-subtitle {
+  font-size: 24px; /* Aumento del tamaño de los subtítulos */
+  font-weight: bold;
+  margin-top: 25px; /* Mayor espacio antes de los subtítulos */
+  margin-bottom: 15px; /* Mayor espacio después de los subtítulos */
+  color: #0056b3;
+}
+
+/* Estilo de los párrafos */
+.aviso-legal-paragraph {
+  margin-bottom: 15px; /* Mayor espacio después de cada párrafo */
+  text-align: justify;
+ 
+  padding-left:27px ;
+
+}
+
+/* Estilo de todas las listas (ul y ol) */
+.aviso-legal-container ul,
+.aviso-legal-container ol {
+  margin-top: 15px; /* Mayor espacio antes de las listas */
+  margin-bottom: 15px; /* Mayor espacio después de las listas */
+  padding-left: 45px;
+  list-style-type: disc; /* Puedes cambiar a tu preferencia */
+  overflow-wrap: break-word; /* Asegura que el texto largo se ajuste dentro del contenedor */
+  word-wrap: break-word; /* Compatibilidad con IE */
+  width: auto; /* Asegura que la lista ocupe el ancho disponible */
+  max-width: 100%; /* Evita que las listas excedan el ancho del contenedor */
+  box-sizing: border-box; /* Incluye el padding y border dentro del ancho */
+}
+
+/* Estilo para cada elemento de todas las listas (ul y ol) */
+.aviso-legal-container li {
+  padding-left: 5px; /* Espacio adicional para separar el contenido del borde */
+  margin-bottom: 10px; /* Espacio entre elementos de lista */
+  white-space: normal; /* Asegura que el texto largo se ajuste dentro del contenedor */
+}
+
+/* Estilo para los enlaces */
+.aviso-legal-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.aviso-legal-container a:hover {
+  text-decoration: underline;
+}
+
+/* Para listas dentro de párrafos, asegurar separación y alineación correcta */
+.aviso-legal-paragraph > ul,
+.aviso-legal-paragraph > ol {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aviso-legal-list-item {
+  width: 100%;
+  word-wrap: break-word; /* Asegura que el texto largo se ajuste dentro del contenedor */
+  overflow-wrap: break-word; /* Asegura que el texto largo se ajuste dentro del contenedor */
+}
+.aviso-legal-uso-del-portal{
+  display: flex;
+  flex-direction: column;
+  
+}
+.aviso-legal-uso-del-portal>.aviso-legal-paragraph-one{
+  padding-left: 30px;
+}
+.aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+  padding-left: 30px;
+
+}
+@media (max-width:1200px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 300px;
+  }
+}
+@media (max-width:860px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 500px;
+    padding-left: 0px;
+  }
+}
+@media (max-width:670px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 700px;
+    padding-left: 0px;
+  }
+}
+ @media (max-width:530px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 730px;
+    padding-left: 0px;
+  }
+}
+ 
+@media (max-width:510px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 830px;
+    padding-left: 0px;
+  }
+}
+@media (max-width:470px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 1000px;
+    padding-left: 0px;
+  }
+} 
+@media (max-width:430px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 1050px;
+    padding-left: 0px;
+  }
+} 
+@media (max-width:400px) {
+  .aviso-legal-uso-del-portal>.aviso-legal-uso-del-portal-sub{
+    gap: 1150px;
+    padding-left: 0px;
+  }
+} 
+.aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 1200px) {
+  .aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 860px) {
+  .aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+    gap: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+    gap: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 470px) {
+  .aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal{
+    gap: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+.aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal>.aviso-legal-list-item-usuario{
+  display: flex;
+  width: 100%;
+
+
+}
+.aviso-legal-uso-del-portal-sub>.aviso-legal-list-uso-del-portal>.aviso-legal-list-item-emplearlos{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 15px;
+
+}
+.aviso-legal-list-item-emplearlos>.aviso-legal-nested-list-two{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding-left: 28px;
+}
+.aviso-legal-nested-list-two>.aviso-legal-list-item{
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+}

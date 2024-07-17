@@ -1,0 +1,48 @@
+.contact-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-page-text {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: grid;
+    gap: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #3ac1f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #00a2e0;
+  }
